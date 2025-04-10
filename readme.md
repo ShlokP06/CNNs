@@ -122,7 +122,7 @@ I had to incorporate a Kaggle dataset for training the GAN model:
 1. Install the Kaggle Python package:
 
    ```bash
-   ! pip install kaggle
+   pip install kaggle
    ```
 
 2. Obtain your Kaggle API key by visiting your Kaggle account settings and downloading the `kaggle.json` file.
@@ -130,20 +130,20 @@ I had to incorporate a Kaggle dataset for training the GAN model:
 3. Place the `kaggle.json` file in the appropriate directory (e.g., `~/.kaggle/`):
 
    ```bash
-   ! mkdir ~/.kaggle
-   ! chmod 600 ~/.kaggle/kaggle.json
+   mkdir ~/.kaggle
+   chmod 600 ~/.kaggle/kaggle.json
    ```
 
 4. Use the Kaggle CLI to download the dataset:
 
    ```bash
-   ! kaggle datasets download utkarshsaxenadn/landscape-recognition-image-dataset-12k-images
+   kaggle datasets download utkarshsaxenadn/landscape-recognition-image-dataset-12k-images
    ```
 
 5. Unzip the downloaded dataset:
 
    ```bash
-   ! unzip landscape-recognition-image-dataset-12k-images.zip
+   unzip landscape-recognition-image-dataset-12k-images.zip
    ```
 
 6. Update the training script to use the downloaded dataset.
