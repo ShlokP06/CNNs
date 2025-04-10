@@ -66,15 +66,8 @@ Step-by-step guide to installing and running your project.
 3. Install dependencies:
 
    ```bash
-   npm install
+   pip install numpy pandas matplotlib tqdm tensorflow pytorch sklearn
    ```
-
-4. Run the application:
-
-   ```bash
-   npm start
-   ```
-
 ---
 
 ## Tasks
