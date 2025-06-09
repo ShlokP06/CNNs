@@ -1,9 +1,6 @@
 
-# Cynaptics Club Induction
-
-A series of tasks undertaken to enter the Cynaptics Club of Indian Institute of Technology, Indore in the session 2024-25.
-
----
+# Neural Networks
+A couple of scripts targeted at basic implementation of Neural Networks for real life usage.
 
 ## Table of Contents
 
@@ -21,9 +18,9 @@ A series of tasks undertaken to enter the Cynaptics Club of Indian Institute of 
 
 ## About the Project
 
-The induction task for 1st year students revolved around images - how the infamous modern technology deepfake works, how can we use it to generate AI images as well as how AI itself can differentiate between a real and a fake image.
+This revolved around images - how the infamous modern technology deepfake works, how can we use it to generate AI images as well as how AI itself can differentiate between a real and a fake image.
 
-The total induction project had 2 tasks:
+The total project had 2 tasks:
 
 - A Real vs AI image classifier
 - Training a GAN model to generate AI images
